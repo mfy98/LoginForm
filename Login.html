@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        
+
+        <h1 class="hdr"> Login Form </h1>
+
+        <form>
+            <div class="container">
+                <label class="lbl">Username:</label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+                <label class="lbl">Password:</label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+                <div class="col text-center">
+                    <button type="submit" class="btn btn-success">Login</button>
+                    <button type="button" class="btn btn-warning">Cancel</button> 
+                </div>
+                
+                <input type="checkbox" checked="checked"> Remember me   
+            </br>
+                <a href="#" class="i">Forgot password? </a> 
+
+            </div>
+        </form>
+
+           <style>
+            
+            .col text-center{
+                justify-content: space-between;
+            }
+            .lbl{
+                color:white;
+            }
+            Body{
+                background-color: lightcoral;
+            }
+            .hdr{
+                text-align: center;
+                font-size: 50px;
+            }
+            .container{
+                background:conic-gradient(#d7d7d7, #c3c3c3, #cccccc, #c6c6c6,
+								#d7d7d7, #c3c3c3, #cccccc, #c6c6c6,
+								#d7d7d7, #c3c3c3, #cccccc, #c6c6c6,
+								#d7d7d7, #c3c3c3, #cccccc, #c6c6c6);
+            }
+            input[type=text], input[type=password] {   
+                width: 100%;   
+                margin: 6px 0;  
+                padding: 12px 20px;   
+                display: flex;   
+                border: 3px solid rgb(7, 88, 163);   
+                box-sizing: border-box;   
+            }  
+           </style>
+        
+    </body>
+</html>
